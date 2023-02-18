@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - a program to run size
-* the computer it is compiled and run on
+ *the computer it is compiled and run on
  * Return:0 (Success)
  */
 int main(void)
