@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main - a program to runn size
- * Return:0 Success
+ *main - a program to run size
+ * Return:0 (Success)
  */
 int main(void)
 {
