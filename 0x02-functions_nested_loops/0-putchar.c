@@ -3,8 +3,8 @@
 
 /**
  * main - Entry point
- * Description - program to print 
- * return: always 0 (success)
+ * Description - program to print
+ * return:always 0(success)
  */
 int main(void)
 {
