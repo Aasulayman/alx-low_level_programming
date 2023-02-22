@@ -10,8 +10,8 @@ if (a < 0)
 {
 return (-1 * a);
 }
- else
-   {
+else
+{
 return (a);
 }
 }
