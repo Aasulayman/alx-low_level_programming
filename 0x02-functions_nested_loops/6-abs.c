@@ -4,7 +4,7 @@
  * @a : parameter to check the absvalue
  * Return: Always 0.
  */
-int _abs(int a);
+int _abs(int a)
 {
 if (a < 0)
 {
