@@ -25,5 +25,5 @@ largest = b;
 largest = c;
 }
 
-return (largest);
+return (0);
 }
