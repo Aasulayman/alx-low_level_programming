@@ -2,17 +2,14 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - function that takes a pointer to an int 
- * @n : parameter to check the function
+ * _strlen - function that returns the length of astring
+ * @s : parameter to check the function
  * Return: Always 0.
  */
-int main(void)
+int _strlen(char *s)
 {
-    int n;
-
-    n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(&n);
-    printf("n=%d\n", n);
-    return (0);
+int length = 0;
+while (s[length])
+length++;
+return (length);
 }
