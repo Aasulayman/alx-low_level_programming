@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * _puts - check the function to print a string
