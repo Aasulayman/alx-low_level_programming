@@ -18,5 +18,5 @@ if (b == (n - 1))
 printf(", ");
 }
 }
-printf('\n');
+_putchar('\n');
 }
