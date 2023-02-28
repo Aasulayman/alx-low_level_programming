@@ -1,9 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * rev_string - code for reverse string
- * @s - parameter to check the code
+ * @s : parameter to check the code
  * Return: Always 0.
  */
 void rev_string(char *s)
