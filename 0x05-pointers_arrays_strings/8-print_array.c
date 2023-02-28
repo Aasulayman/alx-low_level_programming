@@ -18,5 +18,5 @@ if (index != (n - 1))
 printf(",");
 }
 }
-putchar('\n');
+_putchar('\n');
 }
