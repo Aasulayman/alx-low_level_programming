@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,11 +9,11 @@
  */
 void print_array(int *a, int n)
 {
-int index;
-for (index = 0; index < n; index++)
+int b;
+for (b = 0; b < n; b++)
 {
-printf("%d", a[index]);
-if (index != (n - 1))
+printf("%d", a[b]);
+if (b != (n - 1))
 {
 printf(",");
 }
