@@ -18,7 +18,7 @@ return (s);
 accept++;
 }
 accept == str;
-s++
+s++;
 }
 return (NULL);
 }
