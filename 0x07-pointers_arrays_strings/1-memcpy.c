@@ -8,7 +8,7 @@
  * @n: the number of bytes to fill
  * Return: Nothing.
  */
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 char *mem = dest;
 while (n--)

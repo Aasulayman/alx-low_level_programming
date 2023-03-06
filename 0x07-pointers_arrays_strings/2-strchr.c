@@ -7,7 +7,7 @@
  * @c: parameter to locate the character in a string
  * Return: Always 0.
  */
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 while (*s)
 {

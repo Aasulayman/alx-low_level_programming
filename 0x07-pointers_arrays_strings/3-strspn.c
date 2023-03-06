@@ -7,4 +7,4 @@
  * @accept: parameter to accept the byte of string
  * Return: Always 0.
  */
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
