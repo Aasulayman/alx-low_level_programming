@@ -10,14 +10,15 @@
 char *_strpbrk(char *s, char *accept)
 {
 char *str = accept;
-while (*accept = *s)
+ while (*s)
+{
+while (*accept)
 {
 if (*accept == *s)
-{
 return (s);
 accept++;
 }
-accept == str;
+accept = str;
 s++;
 }
 return (NULL);
