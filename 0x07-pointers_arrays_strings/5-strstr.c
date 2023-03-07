@@ -8,3 +8,21 @@
  * Return: Always 0.
  */
 char *_strstr(char *haystack, char *needle);
+{
+char *strh = haystack;
+char *strn = needle;
+while (*haystack)
+{
+strh = haystack;
+needle = strn;
+while (*haystack == *needle)
+{
+haystack++;
+needle++;
+}
+if (*needle == '\0')
+return (haystack);
+haystack = strh + 1;
+}
+return (NULL);
+}
