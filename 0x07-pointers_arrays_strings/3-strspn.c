@@ -29,3 +29,5 @@ accept = str;
 if (flag == 0)
 break;
 }
+return (count);
+}
