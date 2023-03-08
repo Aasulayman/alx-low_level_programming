@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+int _sqrt(int prev, int root);
 
 /**
  * _sqrt_recursion - function to return squar root
