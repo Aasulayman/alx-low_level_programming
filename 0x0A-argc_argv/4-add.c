@@ -7,10 +7,10 @@
  * @argc : variable paramter
  * Return: Always 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv[])
 {
 int a, b, add, i;
-if (argc-- > 1)
+ if (argc >= 0)
 printf("0\n");
 else if (!(isdigit(argv[argc][i])))
 {
