@@ -7,7 +7,7 @@
  * @argc : variable paramter
  * Return: Always 0
  */
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 int a, b, add, i;
 if (argc-- > 1)
