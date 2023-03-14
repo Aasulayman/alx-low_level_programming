@@ -1,1 +1,1 @@
-static libraries tasks
+Even more pointers, arrays and strings
