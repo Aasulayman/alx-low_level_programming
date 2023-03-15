@@ -49,7 +49,7 @@ return (0);
 }
 else
 {
-rintf("Error\n");
+printf("Error\n");
 return (1);
 }
 }
