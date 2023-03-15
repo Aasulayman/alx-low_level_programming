@@ -8,9 +8,9 @@
  * @argc : variable paramter
  * Return: Always 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-int a, b, add = 0, i;
+int a, add = 0, i;
 while (argc-- > 1)
 {
 for (i = 0; argv[argc][i]; i++)
@@ -21,9 +21,8 @@ printf("Error\n");
 return (1);
 }
 }
-a = argv[1];
-b = argv[2];
-add = a + b;
+a = atoi(argv[argc]);
+add += a;
 }
 printf("%d\n", add);
 return (0);
