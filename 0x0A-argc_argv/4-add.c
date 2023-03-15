@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - function to add
@@ -9,17 +10,29 @@
  */
 int main(int argc, char **argv[])
 {
-int a, b, add, i;
- if (argc >= 0)
-printf("0\n");
-else if (!(isdigit(argv[argc][i])))
+int a, b, add = 0, i;
+while (argc-- > 1)
+{
+for (i = 0; argv[agrc][i]; i++)
+{
+if (!(isdigit(argv[argc][i])))
 {
 printf("Error\n");
 return (1);
+
+ else (*argv[i]) 
+{
+printf("Error\n");
+return (1);
+     
+}
+}
 }
 else
 a = argv[1];
 b = argv[2];
 add = a + b;
+}
 printf("%d\n", add);
+return (0);
 }
