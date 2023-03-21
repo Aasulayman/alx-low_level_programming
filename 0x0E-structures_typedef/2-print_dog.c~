@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include "dog.h"
+
+/**
+ * print_dog - check the code
+ * @d : dog structure parameter
+ * Return: Always 0.
+ */
