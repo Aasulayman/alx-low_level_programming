@@ -9,13 +9,14 @@
  * Description: Defines metadata about the dog and type of dog's struct
  */
 
-typedef struct dog
+struct dog
 {
 char *name;
 float age;
 char *owner; 
 } dog;
 typedef struct dog dog_t;
+_putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
