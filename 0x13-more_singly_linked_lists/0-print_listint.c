@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * print_listint - function to print single list
  * @h: header of the node
@@ -7,7 +8,6 @@
  */
 size_t print_listint(const listint_t *h)
 {
-int n;
 size_t = 0;
 while (h)
 {
