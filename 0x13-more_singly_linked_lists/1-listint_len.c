@@ -1,0 +1,16 @@
+#include "lists.h"
+
+/**
+ * listint_len - function to return number of elemnts
+ * @h: head of node
+ * Return: number of elements
+ */
+size_t listint_len(const listint_t *h)
+{
+while (h)
+{
+h = h->next;
+nodes++;
+}
+return (nodes);
+}
