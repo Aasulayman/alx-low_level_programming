@@ -3,7 +3,6 @@
 /**
  * pop_listint - function to delete head of a node
  * @head: head of node
- * @n : data for node struct
  * Return: empty 0
  */
 int pop_listint(listint_t **head)
