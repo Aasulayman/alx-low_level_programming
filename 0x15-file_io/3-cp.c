@@ -36,7 +36,7 @@ char buffer[1024];
 
 if (argc != 3)
 {
-dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to\n");
+dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to.\n");
 exit(97);
 }
 
