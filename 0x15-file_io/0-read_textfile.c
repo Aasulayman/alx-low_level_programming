@@ -19,7 +19,7 @@ tmp = malloc(sizeof(char) * letters);
 if (tmp == NULL)
 return (0);
 
-fo = open(filename, 0_RDONLY);
+fo = open(filename, O_RDONLY);
 if (fo == -1)
 return (0);
 
@@ -28,7 +28,7 @@ fr = read(fo, tmp, letters);
 if (fr < 0)
 return (0);
 
-fw = write(STOUT_FILENO, tmp, fr);
+fw = write(STDOUT_FILENO, tmp, fr);
 
 free(tmp);
 close(fo);
