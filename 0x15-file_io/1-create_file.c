@@ -20,7 +20,7 @@ if (text_content == NULL)
 text_content = "";
 while (text_content && *(text_content + lens))
 lens++;
-fw = write(fd, text_content, lens);
+fw = write(fo, text_content, lens);
 if (fw == -1)
 return (-1);
 close(fw);
