@@ -39,11 +39,11 @@ for (k = k - 1; k >= 0; k++)
 free(array[k]);
 free(array);
 return (NULL);
-			}
+}
 for (m = 0; m < len; m++, i++)
 array[k][m] = str[i];
 array[k++][m] = '\0';
-		}
+}
 }
 array[k] = NULL;
 return (array);
