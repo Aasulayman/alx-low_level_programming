@@ -2,7 +2,7 @@
 
 /**
  * get_endianness - function that checks the endianness
- * Return: 0 or 1 
+ * Return: 0 or 1
  */
 int get_endianness(void)
 {
@@ -13,5 +13,5 @@ e = (char *) &i;
 if (*e == 1)
 return (1);
 
-return (0); 
+return (0);
 }
