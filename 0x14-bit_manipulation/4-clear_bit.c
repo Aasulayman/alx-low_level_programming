@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * clear_bit - function that sets the value of a bit to 0 at a index
+ * @n: value of a bit
+ * @index: index of number
+ * Return: 1 or -1
+ */
+int clear_bit(unsigned long int *n, unsigned int index)
+{
+unsigned long int bit;
+if (index > (sizeof(unsigned long int) * 8))
+return (-1);
+bit = (1 << index);
+*n &= ~bit;
+return (1);
+}
