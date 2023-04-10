@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * get_bit - function that return the value of a bit
+ * @n: value of integer
+ * @index: index from 0 to bit you want
+ * Return: value of index or -1
+ */
+
+int get_bit(unsigned long int n, unsigned int index)
+{
+  int bit;
+  if (index >= (sizeof(unsigned long int) * 8))
+    return (-1);
+  bit = (n & (1 << index));
+  if (bit == 0)
+  return (0);
+
+  return (1);
+}
