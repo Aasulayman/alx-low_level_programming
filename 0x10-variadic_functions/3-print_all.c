@@ -11,7 +11,6 @@ void print_all(const char * const format, ...)
 va_list prall;
 char *string;
 unsigned int i = 0;
-
 va_start(prall, format);
 while (format == NULL)
 {
@@ -34,7 +33,11 @@ break;
 case 's':
 string = va_arg(prall, char *);
 if (string != NULL)
+{
 printf("%s", string);
+break;
+}
+printf("(nil)");
 break;
 }
 if ((format[i] == 'c' || format[i] == 'i' || format[i] == 'f' ||
