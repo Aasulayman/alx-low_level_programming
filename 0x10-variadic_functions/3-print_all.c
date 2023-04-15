@@ -18,7 +18,7 @@ while (format == NULL)
 printf("(nil)");
 return;
 }
-while (format != NULL && format [i] != '\0')
+while (format != NULL && format[i] != '\0')
 {
 switch (format[i])
 {
@@ -33,11 +33,7 @@ printf("%f", va_arg(prall, double));
 break;
 case 's':
 string = va_arg(prall, char *);
-/*if (!string)
-{
-printf("(nil)");
-break;
-}*/
+
 printf("%s", string);
 break;
 }
