@@ -1,9 +1,9 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - function to sum the all the parameters
+ * sum_them_all - A function to sum variadic parameters
  * @n: arguement variable to add
- * Return : sum or 0
+ * Return: Sum or 0
  */
 int sum_them_all(const unsigned int n, ...)
 {
