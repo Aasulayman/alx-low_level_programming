@@ -33,7 +33,8 @@ printf("%f", va_arg(prall, double));
 break;
 case 's':
 string = va_arg(prall, char *);
-
+if (string != NULL)
+{
 printf("%s", string);
 break;
 }
